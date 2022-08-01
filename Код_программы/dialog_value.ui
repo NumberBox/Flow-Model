@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog_value</class>
+ <widget class="QDialog" name="Dialog_value">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>622</width>
+    <height>315</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#Dialog_value{
+	background-color: rgb(255, 255, 255);
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="styleSheet">
+      <string notr="true">QGroupBox#groupBox {
+	border: 2px solid #000000;
+	background-color: rgb(239, 239, 239);
+}</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="25,75">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>Id:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Ignored">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit {
+border: 1px solid #000000;
+}</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="25,75">
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>Значение:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_3">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Ignored">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit {
+border: 1px solid #000000;
+}</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="2" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="25,75">
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>Материал:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Ignored">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+     width: 10px;
+	background-color: rgb(255, 240, 160);
+    image: url(:/new/prefix1/1.png);
+    padding-left: 15px;
+	padding-right: 15px;
+
+    border-left-width: 1px;
+    border-left-color: black;
+    border-left-style: solid;  
+
+   /* border-top-right-radius: 15px;
+border-radius: 15px;*/
+    
+ }
+QComboBox::drop-down::hover{
+	background-color: rgb(255, 249, 152);
+}
+QComboBox {
+	background-color: rgb(255, 234, 197);
+border: 1px solid black;
+}
+QComboBox::hover {
+	background-color: rgb(231, 212, 179);
+}
+QComboBox QAbstractItemView {
+    background-color: rgb(255, 255, 255);
+ }</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="3" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="25,75">
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>Параметр:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Ignored">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+     width: 10px;
+	background-color: rgb(255, 240, 160);
+    image: url(:/new/prefix1/1.png);
+    padding-left: 15px;
+	padding-right: 15px;
+
+    border-left-width: 1px;
+    border-left-color: black;
+    border-left-style: solid;  
+
+   /* border-top-right-radius: 15px;
+border-radius: 15px;*/
+    
+ }
+QComboBox::drop-down::hover{
+	background-color: rgb(255, 249, 152);
+}
+QComboBox {
+	background-color: rgb(255, 234, 197);
+border: 1px solid black;
+}
+QComboBox::hover {
+	background-color: rgb(231, 212, 179);
+}
+QComboBox QAbstractItemView {
+    background-color: rgb(255, 255, 255);
+ }</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="4" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout" stretch="20,40,20,20">
+        <item>
+         <widget class="QPushButton" name="pushButton_3">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: rgb(255, 255, 255);
+border: 1px solid #000000;
+border-radius: 20px;
+} 
+QPushButton::hover { 
+	background-color: rgb(231, 231, 231);
+} 
+QPushButton::pressed {
+ border: 3px solid #000000;
+}</string>
+          </property>
+          <property name="text">
+           <string>Удалить</string>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: rgb(255, 255, 255);
+border: 1px solid #000000;
+border-radius: 20px;
+} 
+QPushButton::hover { 
+	background-color: rgb(231, 231, 231);
+} 
+QPushButton::pressed {
+ border: 3px solid #000000;
+}</string>
+          </property>
+          <property name="text">
+           <string>Отмена</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: rgb(255, 255, 255);
+border: 1px solid #000000;
+border-radius: 20px;
+} 
+QPushButton::hover { 
+	background-color: rgb(231, 231, 231);
+} 
+QPushButton::pressed {
+ border: 3px solid #000000;
+}</string>
+          </property>
+          <property name="text">
+           <string>Сохранить</string>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

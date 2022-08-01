@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>1.png</file>
+        <file>list_last.xlsx</file>
+        <file>121.png</file>
+    </qresource>
+</RCC>
